@@ -15,9 +15,16 @@ classifiers = [
   'Programming Language :: Python :: 3.7',
   'Programming Language :: Python :: 3.8',
 ]
+packages = [
+    { include = "calibre" },
+    { include = "polyglot" },
+]
 
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/diogenes1oliveira/ebook-js/issues"
+
+[tool.poetry.scripts]
+ebook-js-convert = "calibre.ebooks.conversion.cli:main"
 
 [tool.poetry.dependencies]
 python = "^3.7"

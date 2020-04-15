@@ -1,3 +1,4 @@
-# ebook-js
+# pyebook
 
-A port from calibre's ebook-convert to Javascript
+A port from calibre's ebook conversion to a standalone library
+
